@@ -7,24 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		959DA70D29B86218002DAFC9 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959DA70C29B86218002DAFC9 /* Launch Screen.storyboard */; };
+		959DA71229B863C5002DAFC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959DA71029B863C5002DAFC9 /* Main.storyboard */; };
+		959DA71429B86475002DAFC9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959DA71329B86475002DAFC9 /* User.swift */; };
+		959DA71629B86491002DAFC9 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959DA71529B86491002DAFC9 /* AuthViewModel.swift */; };
+		959DA71829B8665C002DAFC9 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959DA71729B8665C002DAFC9 /* CoreDataStack.swift */; };
+		959DA71A29B86A3D002DAFC9 /* UIView+AddSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959DA71929B86A3D002DAFC9 /* UIView+AddSubviews.swift */; };
+		959DA72129B86BF6002DAFC9 /* UIStackView+AddArrangedSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959DA72029B86BF6002DAFC9 /* UIStackView+AddArrangedSubviews.swift */; };
+		959DA72329B8701A002DAFC9 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959DA72229B8701A002DAFC9 /* SigninViewController.swift */; };
+		959DA72529B87ABA002DAFC9 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959DA72429B87ABA002DAFC9 /* UserListViewController.swift */; };
+		959DA72729B87B08002DAFC9 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959DA72629B87B08002DAFC9 /* PictureViewController.swift */; };
+		959DA72A29B87FB5002DAFC9 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959DA72929B87FB5002DAFC9 /* UserViewModel.swift */; };
+		959DA72C29B88232002DAFC9 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959DA72B29B88232002DAFC9 /* UserDetailViewController.swift */; };
+		959DA73129B8A938002DAFC9 /* PictureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959DA73029B8A938002DAFC9 /* PictureViewModel.swift */; };
+		959DA73329B8A947002DAFC9 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959DA73229B8A947002DAFC9 /* Picture.swift */; };
+		959DA73529B8ACEA002DAFC9 /* PictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959DA73429B8ACEA002DAFC9 /* PictureCell.swift */; };
 		95C7DA8C29B85DC70080F10F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C7DA8B29B85DC70080F10F /* AppDelegate.swift */; };
 		95C7DA8E29B85DC70080F10F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C7DA8D29B85DC70080F10F /* SceneDelegate.swift */; };
-		95C7DA9029B85DC70080F10F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C7DA8F29B85DC70080F10F /* ViewController.swift */; };
-		95C7DA9329B85DC70080F10F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C7DA9129B85DC70080F10F /* Main.storyboard */; };
+		95C7DA9029B85DC70080F10F /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C7DA8F29B85DC70080F10F /* SignupViewController.swift */; };
 		95C7DA9629B85DC70080F10F /* Midas_Technical.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95C7DA9429B85DC70080F10F /* Midas_Technical.xcdatamodeld */; };
 		95C7DA9829B85DC80080F10F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C7DA9729B85DC80080F10F /* Assets.xcassets */; };
-		95C7DA9B29B85DC80080F10F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C7DA9929B85DC80080F10F /* LaunchScreen.storyboard */; };
+		9917DA5E1D7D7A68C11F3A14 /* Pods_Midas_Technical.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E5FAE8840D87E8218E5E10 /* Pods_Midas_Technical.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		193267ADC4D53C57991BAA41 /* Pods-Midas Technical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Midas Technical.debug.xcconfig"; path = "Target Support Files/Pods-Midas Technical/Pods-Midas Technical.debug.xcconfig"; sourceTree = "<group>"; };
+		5F1F919430D0858DB1592576 /* Pods-Midas Technical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Midas Technical.release.xcconfig"; path = "Target Support Files/Pods-Midas Technical/Pods-Midas Technical.release.xcconfig"; sourceTree = "<group>"; };
+		65E5FAE8840D87E8218E5E10 /* Pods_Midas_Technical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Midas_Technical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		959DA70C29B86218002DAFC9 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		959DA71129B863C5002DAFC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		959DA71329B86475002DAFC9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		959DA71529B86491002DAFC9 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		959DA71729B8665C002DAFC9 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		959DA71929B86A3D002DAFC9 /* UIView+AddSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AddSubviews.swift"; sourceTree = "<group>"; };
+		959DA72029B86BF6002DAFC9 /* UIStackView+AddArrangedSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+AddArrangedSubviews.swift"; sourceTree = "<group>"; };
+		959DA72229B8701A002DAFC9 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		959DA72429B87ABA002DAFC9 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		959DA72629B87B08002DAFC9 /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		959DA72929B87FB5002DAFC9 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		959DA72B29B88232002DAFC9 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		959DA73029B8A938002DAFC9 /* PictureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewModel.swift; sourceTree = "<group>"; };
+		959DA73229B8A947002DAFC9 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		959DA73429B8ACEA002DAFC9 /* PictureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCell.swift; sourceTree = "<group>"; };
 		95C7DA8829B85DC70080F10F /* Midas Technical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Midas Technical.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95C7DA8B29B85DC70080F10F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95C7DA8D29B85DC70080F10F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		95C7DA8F29B85DC70080F10F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		95C7DA9229B85DC70080F10F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95C7DA8F29B85DC70080F10F /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		95C7DA9529B85DC70080F10F /* Midas_Technical.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Midas_Technical.xcdatamodel; sourceTree = "<group>"; };
 		95C7DA9729B85DC80080F10F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		95C7DA9A29B85DC80080F10F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95C7DA9C29B85DC80080F10F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,17 +63,110 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9917DA5E1D7D7A68C11F3A14 /* Pods_Midas_Technical.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E19272FB48C80F8056497B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				193267ADC4D53C57991BAA41 /* Pods-Midas Technical.debug.xcconfig */,
+				5F1F919430D0858DB1592576 /* Pods-Midas Technical.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		959DA71B29B86A51002DAFC9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				959DA71529B86491002DAFC9 /* AuthViewModel.swift */,
+				959DA72929B87FB5002DAFC9 /* UserViewModel.swift */,
+				959DA73029B8A938002DAFC9 /* PictureViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		959DA71C29B86A65002DAFC9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				959DA72829B87D7C002DAFC9 /* Auth */,
+				959DA72D29B8823C002DAFC9 /* Admin */,
+				959DA72E29B88241002DAFC9 /* User */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		959DA71D29B86A75002DAFC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				959DA71329B86475002DAFC9 /* User.swift */,
+				959DA73229B8A947002DAFC9 /* Picture.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		959DA71E29B86A84002DAFC9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				959DA71729B8665C002DAFC9 /* CoreDataStack.swift */,
+				959DA71F29B86A87002DAFC9 /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		959DA71F29B86A87002DAFC9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				959DA71929B86A3D002DAFC9 /* UIView+AddSubviews.swift */,
+				959DA72029B86BF6002DAFC9 /* UIStackView+AddArrangedSubviews.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		959DA72829B87D7C002DAFC9 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				95C7DA8F29B85DC70080F10F /* SignupViewController.swift */,
+				959DA72229B8701A002DAFC9 /* SigninViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		959DA72D29B8823C002DAFC9 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				959DA72429B87ABA002DAFC9 /* UserListViewController.swift */,
+				959DA72B29B88232002DAFC9 /* UserDetailViewController.swift */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		959DA72E29B88241002DAFC9 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				959DA72629B87B08002DAFC9 /* PictureViewController.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		959DA72F29B886F6002DAFC9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				959DA73429B8ACEA002DAFC9 /* PictureCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		95C7DA7F29B85DC70080F10F = {
 			isa = PBXGroup;
 			children = (
 				95C7DA8A29B85DC70080F10F /* Midas Technical */,
 				95C7DA8929B85DC70080F10F /* Products */,
+				6E19272FB48C80F8056497B3 /* Pods */,
+				CE7BF587CB64D8118A6B9BC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +181,28 @@
 		95C7DA8A29B85DC70080F10F /* Midas Technical */ = {
 			isa = PBXGroup;
 			children = (
+				959DA71029B863C5002DAFC9 /* Main.storyboard */,
+				959DA70C29B86218002DAFC9 /* Launch Screen.storyboard */,
 				95C7DA8B29B85DC70080F10F /* AppDelegate.swift */,
 				95C7DA8D29B85DC70080F10F /* SceneDelegate.swift */,
-				95C7DA8F29B85DC70080F10F /* ViewController.swift */,
-				95C7DA9129B85DC70080F10F /* Main.storyboard */,
+				959DA72F29B886F6002DAFC9 /* Components */,
+				959DA71D29B86A75002DAFC9 /* Models */,
+				959DA71C29B86A65002DAFC9 /* Views */,
+				959DA71B29B86A51002DAFC9 /* ViewModels */,
+				959DA71E29B86A84002DAFC9 /* Helpers */,
 				95C7DA9729B85DC80080F10F /* Assets.xcassets */,
-				95C7DA9929B85DC80080F10F /* LaunchScreen.storyboard */,
 				95C7DA9C29B85DC80080F10F /* Info.plist */,
 				95C7DA9429B85DC70080F10F /* Midas_Technical.xcdatamodeld */,
 			);
 			path = "Midas Technical";
+			sourceTree = "<group>";
+		};
+		CE7BF587CB64D8118A6B9BC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65E5FAE8840D87E8218E5E10 /* Pods_Midas_Technical.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95C7DA9F29B85DC80080F10F /* Build configuration list for PBXNativeTarget "Midas Technical" */;
 			buildPhases = (
+				1BE971429CA890C9E7EC628D /* [CP] Check Pods Manifest.lock */,
 				95C7DA8429B85DC70080F10F /* Sources */,
 				95C7DA8529B85DC70080F10F /* Frameworks */,
 				95C7DA8629B85DC70080F10F /* Resources */,
+				C41FDB7A32A264270F0A1688 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,22 +265,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95C7DA9B29B85DC80080F10F /* LaunchScreen.storyboard in Resources */,
+				959DA71229B863C5002DAFC9 /* Main.storyboard in Resources */,
+				959DA70D29B86218002DAFC9 /* Launch Screen.storyboard in Resources */,
 				95C7DA9829B85DC80080F10F /* Assets.xcassets in Resources */,
-				95C7DA9329B85DC70080F10F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BE971429CA890C9E7EC628D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Midas Technical-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C41FDB7A32A264270F0A1688 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Midas Technical/Pods-Midas Technical-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Midas Technical/Pods-Midas Technical-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Midas Technical/Pods-Midas Technical-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		95C7DA8429B85DC70080F10F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				959DA72C29B88232002DAFC9 /* UserDetailViewController.swift in Sources */,
+				959DA72529B87ABA002DAFC9 /* UserListViewController.swift in Sources */,
+				959DA72729B87B08002DAFC9 /* PictureViewController.swift in Sources */,
+				959DA71829B8665C002DAFC9 /* CoreDataStack.swift in Sources */,
+				959DA73329B8A947002DAFC9 /* Picture.swift in Sources */,
+				959DA71629B86491002DAFC9 /* AuthViewModel.swift in Sources */,
 				95C7DA9629B85DC70080F10F /* Midas_Technical.xcdatamodeld in Sources */,
-				95C7DA9029B85DC70080F10F /* ViewController.swift in Sources */,
+				95C7DA9029B85DC70080F10F /* SignupViewController.swift in Sources */,
+				959DA71A29B86A3D002DAFC9 /* UIView+AddSubviews.swift in Sources */,
 				95C7DA8C29B85DC70080F10F /* AppDelegate.swift in Sources */,
+				959DA72329B8701A002DAFC9 /* SigninViewController.swift in Sources */,
+				959DA72A29B87FB5002DAFC9 /* UserViewModel.swift in Sources */,
+				959DA73129B8A938002DAFC9 /* PictureViewModel.swift in Sources */,
+				959DA71429B86475002DAFC9 /* User.swift in Sources */,
+				959DA72129B86BF6002DAFC9 /* UIStackView+AddArrangedSubviews.swift in Sources */,
+				959DA73529B8ACEA002DAFC9 /* PictureCell.swift in Sources */,
 				95C7DA8E29B85DC70080F10F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,20 +343,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		95C7DA9129B85DC70080F10F /* Main.storyboard */ = {
+		959DA71029B863C5002DAFC9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				95C7DA9229B85DC70080F10F /* Base */,
+				959DA71129B863C5002DAFC9 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		95C7DA9929B85DC80080F10F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				95C7DA9A29B85DC80080F10F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -286,6 +470,7 @@
 		};
 		95C7DAA029B85DC80080F10F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 193267ADC4D53C57991BAA41 /* Pods-Midas Technical.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,11 +478,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Midas Technical/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Daffa Midas Test";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +500,7 @@
 		};
 		95C7DAA129B85DC80080F10F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F1F919430D0858DB1592576 /* Pods-Midas Technical.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,11 +508,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Midas Technical/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Daffa Midas Test";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

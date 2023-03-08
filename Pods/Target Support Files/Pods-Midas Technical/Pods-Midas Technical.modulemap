@@ -1,0 +1,6 @@
+framework module Pods_Midas_Technical {
+  umbrella header "Pods-Midas Technical-umbrella.h"
+
+  export *
+  module * { export * }
+}
